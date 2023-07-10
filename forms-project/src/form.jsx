@@ -82,18 +82,18 @@ function Form (){
         return errors;
     }
     
-    const showErrors = () => {
+    // const showErrors = () => {
      
-         if(!errors.length){
-             return null
-         }
+    //      if(!errors.length){
+    //          return null
+    //      }
  
-         return(
-             <ul>
-                 {errors.map(error => <li> {error}</li>)}
-             </ul>
-         )
-    }
+    //      return(
+    //          <ul>
+    //              {errors.map(error => <li> {error}</li>)}
+    //          </ul>
+    //      )
+    // }
 
     const handleSubmit = (e) => {
         e.preventDefault()
